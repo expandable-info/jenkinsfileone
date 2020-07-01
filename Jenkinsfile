@@ -1,4 +1,4 @@
-node
+node('nodeone')
 {
  echo "GitHub BranhName ${env.BRANCH_NAME}"
       echo "Jenkins Job Number ${env.BUILD_NUMBER}"
